@@ -30,34 +30,34 @@
   </div>
 
   <div class="container">
-    <h1 class="underline">Metro Booking</h1>
+    <h1 class="underline">food donation</h1>
     <form id="bookingForm">
       <div class="form-group">
-        <label for="fromStation">From Station:</label>
+        <label for="fromStation">From donor:</label>
         <select id="fromStation" name="fromStation" required>
-          <option value="depot">Depot</option>
-          <option value="parichowk">Parichowk</option>
-          <option value="sector147">Sector 147</option>
+          <option value="depot">haryana</option>
+          <option value="parichowk">karnal</option>
+          <option value="sector147">mumbai</option>
         </select>
       </div>
 
       <div class="form-group">
-        <label for="toStation">To Station:</label>
+        <label for="toStation">To recipient:</label>
         <select id="toStation" name="toStation" required>
-          <option value="sector76">Sector 76</option>
-          <option value="sector51">Sector 51</option>
-          <option value="sector18">Sector 18</option>
+          <option value="sector76">pune</option>
+          <option value="sector51">delhi</option>
+          <option value="sector18">gujarat</option>
         </select>
       </div>
 
       <div class="button-container">
-        <button type="submit" class="black-btn light-blue-btn">Confirm Route</button>
+        <button type="submit" class="black-btn light-blue-btn">Confirm donations</button>
       </div>
     </form>
 
     <div class="counter-fare-container">
       <div class="counter-container">
-        <h2>No. of Tickets</h2>
+        <h2>No. of donations</h2>
         <button id="minusBtn" class="black-btn small-square-btn light-blue-btn">-</button>
         <span id="counter">0</span>
         <button id="plusBtn" class="black-btn small-square-btn light-blue-btn">+</button>
@@ -81,17 +81,18 @@
 
     <div class="button-container">
       <button id="resetBtn" class="black-btn light-blue-btn">Reset</button>
-      <button id="calculateFareBtn" class="black-btn light-blue-btn">Calculate Fare</button>
+      <button id="calculateFareBtn" class="black-btn light-blue-btn">Calculate donation</button>
     </div>
   </div>
 
   <div class="notification-container" id="notificationContainer">Alerts and Notifications</div>
 
   <div class="networkInfo">
-    <h2> <b>Network Information</b></h2>
-    <p>Total Network Length: 393 km</p>
-    <p>Total no. of Stations: 12</p>
-    <p>Total no. of lines: 288</p>
+    <h2> <b>donation Information</b></h2>
+    <p>Total no. of donations every month: 12k </p>
+    <p>Total no. of Donations per day: 12k</p>
+    <p>Total no. of amount/food collected:₹288k</p>
+    <br>
     <br>
     <br>
     <object class="map" data="map.pdf" type="application/pdf">
@@ -105,3 +106,4 @@
   <script src="script.js"></script>
 </body>
 </html>
+
