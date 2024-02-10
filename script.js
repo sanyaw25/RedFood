@@ -3,8 +3,8 @@ $(document).ready(function() {
   // Add this function to dynamically populate the dropdowns
   function populateDropdowns() {
     // Define station values
-    const stationsFrom = ["depot", "parichowk", "sector147"];
-    const stationsTo = ["sector76", "sector51", "sector18"];
+    const stationsFrom = ["haryana", "karnal", "mumbai"];
+    const stationsTo = ["pune", "delhi", "gujarat"];
 
     // Populate "From Station" dropdown
     const fromDropdown = $('#fromStation');
@@ -124,8 +124,12 @@ function showNotification(message) {
     event.preventDefault(); // Prevent the form from submitting (for demonstration purposes)
 
     // Show a sample notification when the form is submitted
-    showNotification("Route confirmed successfully!");
+    showNotification("Donation confirmed successfully!");
   });
+
+
+
+
 
 
 
